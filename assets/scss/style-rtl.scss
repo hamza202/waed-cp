@@ -1,12 +1,20 @@
-/*================================================================================
-	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-	Version: 2.0
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
-================================================================================
+@import '../../app-assets/vendors/css/vendors-rtl.min.css';
+@import '../../app-assets/css-rtl/bootstrap.css';
+@import '../../app-assets/css-rtl/bootstrap-extended.css';
+@import '../../app-assets/css-rtl/colors.css';
+@import '../../app-assets/css-rtl/components.css';
+@import '../../app-assets/css-rtl/themes/dark-layout.css';
+@import '../../app-assets/css-rtl/themes/semi-dark-layout.css';
+@import '../../app-assets/css-rtl/core/menu/menu-types/vertical-menu.css';
 
-NOTE:
-------
-PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
-WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
-$primary: #000;
+
+
+@import '../../node_modules/bootstrap/scss/_functions';
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_utils';
+@import 'base/_rtlconstant';
+@import 'base/_main';
+@import '../../app-assets/css-rtl/custom-rtl.css';

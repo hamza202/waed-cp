@@ -1,11 +1,19 @@
-/*================================================================================
-	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-	Version: 2.0
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
-================================================================================
+@import '../../app-assets/vendors/css/vendors.min.css';
+@import '../../app-assets/css/bootstrap.css';
+@import '../../app-assets/css/bootstrap-extended.css';
+@import '../../app-assets/css/colors.css';
+@import '../../app-assets/css/components.css';
+@import '../../app-assets/css/themes/dark-layout.css';
+@import '../../app-assets/css/themes/semi-dark-layout.css';
+@import '../../app-assets/css/core/menu/menu-types/vertical-menu.css';
 
-NOTE:
-------
-PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
-WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import '../../node_modules/bootstrap/scss/_functions';
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_utils';
+@import 'base/_rtlconstant';
+@import 'base/_main';
+@import 'base/_def-ltr';

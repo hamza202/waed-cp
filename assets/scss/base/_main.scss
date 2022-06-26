@@ -1,0 +1,113 @@
+:root {
+  --bs-font-sans-serif: 'Tajawal', 'sans-serif';
+  --bs-font-monospace: 'Tajawal', 'sans-serif';
+  --bs-body-font-size: 1.1rem;
+  --main-color:#a9a063;
+  --main-dark-color:#161d31;
+  //--main-color: #d2bd46;
+}
+
+html {
+  body {
+    font-family: 'Tajawal', sans-serif;
+  }
+}
+
+.main-menu.menu-light .navigation > li.active > a {
+  box-shadow: 0 0 10px 1px rgb(var(--main-color), 0.7);
+  background:  var(--main-color);
+}
+
+.main-menu.menu-dark .navigation > li.active > a {
+  background:  var(--main-dark-color);
+  box-shadow: 0 0 10px 1px rgb(var(--main-dark-color), 0.7);
+
+}
+.card-statistics .statistics-body .avatar .avatar-content{
+  .feather{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+a{
+  color: var(--main-color);
+  &:hover{
+    color: var(--main-color);
+  }
+}
+.dark-layout a:hover{
+  color: var(--main-color);
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #a9a063;
+  background-color: rgb(169 160 99 / 12%);
+}
+.main-menu .navbar-header{
+  height: auto;
+}
+.main-menu .navbar-header .navbar-brand .brand-logo img{
+  height: 140px;
+  width: auto;
+  max-width: none;
+}
+.main-menu .navbar-header .navbar-brand{
+  width: 100%;
+  justify-content: center;
+  margin-right: 10px;
+}
+.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu:not(.expanded) {
+  .navbar-header .navbar-brand{
+    width: auto;
+    margin-right: 0;
+  }
+  .navbar-header .navbar-brand .brand-logo img{
+    height: auto;
+    width: 54px;
+    max-width: none;
+  }
+ .navbar-header{
+    padding: 1rem !important;
+  }
+}
+.text-primary{
+  color: var(--main-color) !important;
+}
+
+.main-menu.menu-light .navigation.account-menu-info > li ul .active{
+  background: transparent;
+  box-shadow: none;
+}
+.main-menu.menu-light .navigation.account-menu-info > li ul{
+  li{
+    white-space: normal;
+    p{
+      font-size: 15px;
+      margin-bottom: 2px;
+    }
+  }
+}
+.account-menu-info-list li{
+  padding-top: 5px;
+}
+.account-menu-info-list li:not(:last-child){
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+.navbar-horizontal.header-navbar .navbar-container ul.navbar-nav li > a.nav-link{
+  padding: 0.2rem 1rem;
+  transition: color ease-in-out 0.3s;
+  &:hover{
+    color: var(--main-color);
+  }
+}
+.dropdown-user{
+  .dropdown-toggle:after{
+    display: none;
+  }
+}
+.header-navbar .navbar-container ul.navbar-nav li i.ficon:hover, .header-navbar .navbar-container ul.navbar-nav li svg.ficon:hover{
+  color: var(--main-color);
+}
+.main-menu.menu-light .navigation li.nav-item ul.menu-content li a {
+  font-size: 15px;
+}
