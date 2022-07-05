@@ -11,7 +11,7 @@
     <meta name="keywords"
           content="واعد, وقف, مشروع واعد">
     <meta name="author" content="PIXINVENT">
-    <title>واعد || الرئيسية</title>
+    <title>واعد || خدمات الموظف</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,7 @@
                         </li>
                         <li data-menu="">
                             <a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle=""
-                               ><span>دليل الوصول السريع (مدير النظام)</span></a>
+                            ><span>دليل الوصول السريع (مدير النظام)</span></a>
                         </li>
                     </ul>
                 </li>
@@ -69,7 +69,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center" target="_blank" href="https://test.waed.org.sa/WebForm9.aspx">
+                    <a class="nav-link d-flex align-items-center" target="_blank"
+                       href="https://test.waed.org.sa/WebForm9.aspx">
                         <span>الهيكل التنظيمي</span>
                     </a>
                 </li>
@@ -197,13 +198,13 @@
             <li class="my-1">
                 <div class="dropdown-divider"></div>
             </li>
-            <li class="active nav-item">
+            <li class="nav-item">
                 <a class="d-flex align-items-center" href="index.html">
                     <i data-feather="home"></i>
                     <span class="menu-title text-truncate">الرئيسية</span>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="d-flex align-items-center" href="employee-services.html">
                     <i data-feather='user-check'></i>
                     <span class="menu-title text-truncate">خدمات الموظف</span>
@@ -283,184 +284,150 @@
             <div class="content-header-left col-md-9 col-12 mb-2">
                 <div class="row breadcrumbs-top">
                     <div class="col-12">
-                        <h2 class="content-header-title float-start mb-0 border-0">الرئيسية</h2>
-                        <!--                        <div class="breadcrumb-wrapper">-->
-                        <!--                            <ol class="breadcrumb">-->
-                        <!--                                <li class="breadcrumb-item"><a href="index.html">Home</a>-->
-                        <!--                                </li>-->
-                        <!--                                <li class="breadcrumb-item active">Index-->
-                        <!--                                </li>-->
-                        <!--                            </ol>-->
-                        <!--                        </div>-->
+                        <h2 class="content-header-title float-start mb-0">خدمات الموظف</h2>
+                        <div class="breadcrumb-wrapper">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">الرئيسية</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    خدمات الموظف
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="content-body">
-            <div class="card card-statistics">
-                <div class="card-header">
-                    <h4 class="card-title">إجازاتي</h4>
+            <div class="card">
+                <div class="card-header pb-0">
+                    <ul class="nav nav-pills card-header-pills ms-0" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="tab_1-tab" data-bs-toggle="tab" href="#tab_1" aria-controls="tab_1" role="tab" aria-selected="true">
+                                <i data-feather='box'></i>
+                                الطلبات
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id=tab_2-tab" data-bs-toggle="tab" href="#tab_2" aria-controls="tab_2"
+                               role="tab" aria-selected="false">
+                                <i data-feather='copy'></i>
+                                النماذج
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i data-feather='shopping-cart'></i>
+                                سلة الموظف</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="card-body statistics-body">
-                    <div class="row ">
-                        <div class="col-md-4 col-sm-6 col-12 mb-2 ">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-primary me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='dollar-sign'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">500 ريال</h4>
-                                    <p class="card-text font-mb-0">الرصيد الكي</p>
-                                </div>
-                            </div>
+                <hr class="m-0">
+                <div class="card-body pt-1 pb-1">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab_1" aria-labelledby="tab_1-tab" role="tabpanel">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">اجازة</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">سلفة</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">استقالة</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">مهمة</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">عمل اضافي</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">المزايا والحوافز</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">طلب صلاحية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">البحث عن موظف</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-4 col-sm-6 col-12 mb-2 ">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-info me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='archive'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">200</h4>
-                                    <p class="card-text font-mb-0">المجدولة</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 mb-2">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-warning me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='trending-down'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">200</h4>
-                                    <p class="card-text font-mb-0">المتبقية</p>
-                                </div>
-                            </div>
+                        <div class="tab-pane" id="tab_2" aria-labelledby="tab_2-tab" role="tabpanel">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">نموذج الراتب</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">نموذج تعريف بدون راتب</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">نموذج تعريف مع راتب</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">نموذج مكافأه نهاية الخدمة</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card card-statistics">
+            <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">معاملاتي</h4>
+                    <h4 class="m-0">
+                        طلب إجازة
+                    </h4>
                 </div>
-                <div class="card-body statistics-body">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 col-12 mb-2">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-primary me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='corner-left-up'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">200</h4>
-                                    <p class="card-text font-mb-0">الصادر</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 mb-2">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-success me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='corner-left-down'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">200</h4>
-                                    <p class="card-text font-mb-0">الوارد</p>
+                <hr class="m-0">
+                <div class="card-body">
+                    <form class="form">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="kind_of_holiday">تحديد نوع الإجازة </label>
+                                    <select class="select2 form-select" id="kind_of_holiday" data-placeholder="نوع الإجازة">
+                                        <option value="">نوع الإجازة</option>
+                                        <option value="HI">وفاة</option>
+                                        <option value="CA">زواج</option>
+                                        <option value="NV">مولود</option>
+                                    </select>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card card-statistics">
-                <div class="card-header">
-                    <h4 class="card-title">اجتماعاتي</h4>
-                </div>
-                <div class="card-body statistics-body">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 col-12 mb-2">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-primary me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='users'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">2</h4>
-                                    <p class="card-text font-mb-0">الاجتماعات</p>
+                            <div class="col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="holiday_balance">رصيد الإجازة</label>
+                                    <input type="number" id="holiday_balance" class="form-control" placeholder="Last Name" value="0"  disabled/>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 mb-2">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-success me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='user-check'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">3</h4>
-                                    <p class="card-text font-mb-0">اجتماع قادم</p>
+                            <div class="col-md-4 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="date1">تاريخ البداية</label>
+                                    <input type="text" id="date1" class="form-control flatpickr-basic flatpickr-input" placeholder="YYYY-MM-DD" />
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card card-statistics">
-                <div class="card-header">
-                    <h4 class="card-title">موافقاتي</h4>
-                </div>
-                <div class="card-body statistics-body">
-                    <div class="row ">
-                        <div class="col-md-4 col-sm-6 col-12 mb-2 ">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-primary me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='check'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">20</h4>
-                                    <p class="card-text font-mb-0">معتمدة</p>
+                            <div class="col-md-4 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="date2">تاريخ النهاية</label>
+                                    <input type="text" id="date2" class="form-control flatpickr-basic flatpickr-input" placeholder="YYYY-MM-DD" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 mb-2 ">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-info me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='loader'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">2</h4>
-                                    <p class="card-text font-mb-0">بانتظار الموافقة</p>
+                            <div class="col-md-4 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="duration">المدة</label>
+                                    <input type="number" id="duration" class="form-control" placeholder="Last Name" value="0"  disabled/>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-12 mb-2">
-                            <div class="d-flex flex-row">
-                                <div class="avatar bg-light-success me-2">
-                                    <div class="avatar-content">
-                                        <i data-feather='trending-up'></i>
-                                    </div>
-                                </div>
-                                <div class="my-auto">
-                                    <h4 class="fw-bolder mb-0">3000</h4>
-                                    <p class="card-text font-mb-0">العدد الكلي</p>
+                            <div class="col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="note">ملاحظات</label>
+                                    <textarea  id="note" class="form-control" placeholder="ملاحظات" ></textarea>
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary me-1">حفظ</button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -490,11 +457,15 @@
 <!-- BEGIN Vendor JS-->
 
 <!-- BEGIN: Page Vendor JS-->
+<script src="app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+<script src="app-assets/js/scripts/forms/form-select2.js"></script>
+<script src="app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
 <!-- END: Page Vendor JS-->
 
 <!-- BEGIN: Theme JS-->
 <script src="app-assets/js/core/app-menu.min.js"></script>
 <script src="app-assets/js/core/app.min.js"></script>
+<script src="assets/js/scripts.js"></script>
 <!-- END: Theme JS-->
 
 <!-- END: Page JS-->
